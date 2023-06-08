@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  background-image: linear-gradient(to right, white, yellow, black);
+  padding: 0 !important;
+}
+.navbar-brand img {
+  height: 70px;
+  padding-left: 20px;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: white !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.fa-bars {
+  color: white;
+  font-size: 30px !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+
+/*------------------banner section-----------------------*/
+
+#banner {
+  background-image: linear-gradient(to right, white, yellow, black);
+  color: black;
+  padding-top: 5%;
+}
+.img-banner {
+  height: 300px;
+  width: 300px;
+  padding-right: 20px;
+}
+.p1 {
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+.promo-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+  color: black;
+}
+.play-btn {
+  width: 45px;
+  margin: 20px;
+}
+#banner a {
+  color: black;
+  text-decoration: none;
+}
+.bottom-img {
+  width: 100%;
+}
+
+/*-----------------services section--------------------*/
+
+#services {
+  padding: 80px 0;
+}
+.service-img {
+  width: 300px;
+  margin-top: 20px;
+}
+#services2 {
+  padding: 80px 0;
+}
+.service-img2 {
+  width: 200px;
+  margin-top: 20px;
+}
+.services {
+  padding: 20px;
+}
+.services2 {
+  padding: 20px;
+}
+.services h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.services2 h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.title::before {
+  content: "";
+  background-color: yellow;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+.title::after {
+  content: "";
+  background-color: yellow;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+#services .btn-primary {
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, yellow, black);
+}
+
+/*--------------about us section----------------*/
+
+#about-us {
+  background: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.about-title {
+  font-size: 37px;
+  font-weight: 600;
+  margin-top: 8%;
+}
+#about-us ul li {
+  margin: 10px 0;
+}
+#about-us ul {
+  margin-left: 20px;
+}
+
+/*-------------------Management Section-----------------------*/
+
+#management {
+  margin: 100px 0;
+}
+.management {
+  border-left: 4px solid yellow;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.management img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.user-details {
+  display: inline-block;
+  font-size: 12px;
+}
+.management-container {
+  display: flex;
+}
+/* .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+} */
+
+/*--------------Social Media Section------------------*/
+
+#social-media {
+  background: white;
+  padding: 100px 0;
+}
+#social-media p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.social-icons img {
+  width: 60px;
+  transition: 0.5s;
+}
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
+
+/*----------------footer Section---------------------*/
+#footer {
+  background-image: linear-gradient(to right, yellow, black);
+  color: black;
+}
+.footer-box {
+  padding: 20px;
+}
+.footer-box img {
+  width: 120px;
+  margin-bottom: 20px;
+  border-radius: 90%;
+}
+.since {
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 17px;
+}
+.footer-box .fa {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 6px;
+  background-image: linear-gradient(to right, black, yellow, white);
+}
+.footer-box .form-control {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+.footer-box .btn-primary {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, yellow, black);
+}
+hr {
+  background-color: white;
+}
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.footer-img {
+  width: 100%;
+}
